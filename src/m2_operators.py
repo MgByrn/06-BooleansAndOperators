@@ -21,9 +21,31 @@ t2 = "cat"
 #   
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+def equal(a, b):
+    return a==b
+print(equal(4, 4))
 
+def not_equal(a, b):
+    return a!=b
+print (not_equal(4, 3))
+
+def greater_than(a, b):
+    return a > b
+print (greater_than(10, 5))
+
+def less_than(a, b):
+    return a < b
+print(less_than(1, 5))
+
+def greater_than_or_equal_to(a, b):
+    return a >= b
+print(greater_than_or_equal_to(15, 10))
+
+def less_than_or_equal_to (a, b):
+    return a <= b
+print(less_than_or_equal_to(10, 10))
 ###############################################################################
-# TODO: 1. (2 pts)
+# DONE: 1. (2 pts)
 #
 #   Write a line of code that returns True if the string
 #       t1 (defined above)
@@ -41,9 +63,14 @@ t2 = "cat"
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+txt = "The quick brown fox jumps over the lazy dog."
+t1 = "fox"
+t2 = "cat"
+print(t1 in txt)
+print(t2 in txt)
 
 ###############################################################################
-# TODO: 1. (1 pt)
+# DONE: 1. (1 pt)
 #
 #   Now, write a line of code that returns True if the string
 #       t1
@@ -53,3 +80,4 @@ t2 = "cat"
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+print(t1 != t2)
